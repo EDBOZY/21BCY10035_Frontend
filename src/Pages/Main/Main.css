@@ -1,0 +1,163 @@
+.main{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+
+}
+.main .sl{
+    display: flex;
+    width: 65vw;
+    flex-direction: column;
+    /* flex:2; */
+}
+.main .sr{
+    display: flex;
+    /* flex: 1; */
+    width: 30vw;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    gap: 2rem;
+    position: sticky;
+    /* top: 95vh;
+    left: 65vw; */
+    margin-top: -130vh;
+    margin-right: 10px;
+    padding: 20px;
+}
+.main .sr .status{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    width: 23vw;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+}
+.main .statuss{
+    width: 20vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row ;
+    gap: 1rem;
+}
+.main .bar,.all{
+    padding: 15px;
+    border: 1px solid black;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.main .bar:hover{
+    border: 1px solid blue ;
+    color: blue;
+    background-color: #EEF4FF;
+    cursor: pointer;
+}
+.main .blockr{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    gap: 1rem;
+    padding: 20px;
+    width: 23vw;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+
+}
+.main .linee{
+    width: 4vw;
+    height: 0.5vh;
+    background-color: black;
+}
+.main .role{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    font-weight: 600;
+    /* justify-content: space-evenly; */
+}
+.main .role span{
+    cursor: pointer;
+}
+.main .search{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 1rem;
+    padding: 10px;
+    border: 1px solid #E3E3E5;
+    border-radius: 0.5rem;
+}
+.main .input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 15vw;
+}
+.main .check{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    overflow-y: scroll;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); */
+
+}
+.main .check .checkbox{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 1rem;
+    padding: 15px;
+    font-size: larger;
+
+}
+.main .check .checkbox input{
+    padding: 20px;
+    font-size: larger;
+    
+}
+.main .blockd{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 23vw;
+    padding: 20px;
+    /* border: 1px solid black; */
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    /* align-items: center;
+    justify-content: center; */
+
+}
+.main .back{
+    background-color: #F1F1F1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+    width: 15vw;
+    padding: 10px;
+    margin-left: 50px;
+    border-radius: 0.5rem;
+}
+.main .l,.r{
+    display: flex;
+    padding: 10px;
+    /* border: 1px solid; */
+    /* background-color: white; */
+    border-radius: 0.5rem;
+}
