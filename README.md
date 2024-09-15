@@ -9,6 +9,12 @@ This is a Trademarkia Search Application where users can search for various trad
 
 ## Demo
 
+### Video of the Application in Action
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+[Click here to download/watch the demo video](https://drive.google.com/file/d/1sen1QCUmvN8_kCL1SF2vf0OoC3aGzq3n/view?usp=sharing)
+
 ### Live Website
 Visit the live website: [Trademark Search Application](https://21bcy10035frontend.vercel.app/)
 
