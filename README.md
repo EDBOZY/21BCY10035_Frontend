@@ -1,6 +1,6 @@
 # Trademarkia Search Application
 
-This is a Trademarkia Search Application where users can search for various trademarks and view the results with details like the owner, status, description, and important dates. The project is built using **React** with both **Tailwind CSS** and regular **CSS** for styling.
+This is a Trademarkia Search Application where users can search for various trademarks and view the results with details like the owner, status, description, and important dates. The project is built using **React** with **Tailwind CSS** also i have made code with **React** and regular **CSS** for styling.
 
 ## Project Overview
 
